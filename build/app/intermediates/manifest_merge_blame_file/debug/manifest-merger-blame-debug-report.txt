@@ -15,83 +15,138 @@
 15    <uses-permission android:name="android.permission.INTERNET" />
 15-->C:\Users\augus\StudioProjects\batteryBloc\android\app\src\debug\AndroidManifest.xml:7:5-66
 15-->C:\Users\augus\StudioProjects\batteryBloc\android\app\src\debug\AndroidManifest.xml:7:22-64
-16    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-16-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-83
-16-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-80
-17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-80
-17-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-77
-18
-19    <application
-20        android:name="android.app.Application"
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.6.0] C:\Users\augus\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:icon="@mipmap/ic_launcher"
-24        android:label="batterybloc" >
-25        <activity
-26            android:name="com.example.batterybloc.MainActivity"
-27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-28            android:exported="true"
-29            android:hardwareAccelerated="true"
-30            android:launchMode="singleTop"
-31            android:theme="@style/LaunchTheme"
-32            android:windowSoftInputMode="adjustResize" >
-33
-34            <!--
-35                 Specifies an Android theme to apply to this Activity as soon as
-36                 the Android process has started. This theme is visible to the user
-37                 while the Flutter UI initializes. After that, this theme continues
-38                 to determine the Window background behind the Flutter UI.
-39            -->
-40            <meta-data
-41                android:name="io.flutter.embedding.android.NormalTheme"
-42                android:resource="@style/NormalTheme" />
-43
-44            <intent-filter>
-45                <action android:name="android.intent.action.MAIN" />
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-48            </intent-filter>
-49        </activity>
-50        <!--
-51             Don't delete the meta-data below.
-52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-53        -->
-54        <meta-data
-55            android:name="flutterEmbedding"
-56            android:value="2" />
-57
-58        <provider
-58-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-23:20
-59            android:name="com.crazecoder.openfile.FileProvider"
-59-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-64
-60            android:authorities="com.example.batterybloc.fileProvider.com.crazecoder.openfile"
-60-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-88
-61            android:exported="false"
-61-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
-62            android:grantUriPermissions="true" >
-62-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-47
-63            <meta-data
-63-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:53
-64                android:name="android.support.FILE_PROVIDER_PATHS"
-64-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-67
-65                android:resource="@xml/filepaths" />
-65-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-50
-66        </provider>
+16
+17    <queries>
+17-->C:\Users\augus\StudioProjects\batteryBloc\android\app\src\debug\AndroidManifest.xml:8:9-13:13
+18        <intent>
+18-->C:\Users\augus\StudioProjects\batteryBloc\android\app\src\debug\AndroidManifest.xml:9:5-12:14
+19            <action android:name="android.intent.action.SENDTO" />
+19-->C:\Users\augus\StudioProjects\batteryBloc\android\app\src\debug\AndroidManifest.xml:10:7-61
+19-->C:\Users\augus\StudioProjects\batteryBloc\android\app\src\debug\AndroidManifest.xml:10:15-58
+20
+21            <data android:scheme="mailto" />
+21-->C:\Users\augus\StudioProjects\batteryBloc\android\app\src\debug\AndroidManifest.xml:11:7-39
+21-->C:\Users\augus\StudioProjects\batteryBloc\android\app\src\debug\AndroidManifest.xml:11:13-36
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+25-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-83
+25-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-80
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-80
+26-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-77
+27
+28    <application
+29        android:name="android.app.Application"
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] C:\Users\augus\.gradle\caches\transforms-3\5e083c06c9925c2309f02468fc66e376\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+33        android:label="batterybloc" >
+34        <activity
+35            android:name="com.example.batterybloc.MainActivity"
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37            android:exported="true"
+38            android:hardwareAccelerated="true"
+39            android:launchMode="singleTop"
+40            android:theme="@style/LaunchTheme"
+41            android:windowSoftInputMode="adjustResize" >
+42
+43            <!--
+44                 Specifies an Android theme to apply to this Activity as soon as
+45                 the Android process has started. This theme is visible to the user
+46                 while the Flutter UI initializes. After that, this theme continues
+47                 to determine the Window background behind the Flutter UI.
+48            -->
+49            <meta-data
+50                android:name="io.flutter.embedding.android.NormalTheme"
+51                android:resource="@style/NormalTheme" />
+52
+53            <intent-filter>
+54                <action android:name="android.intent.action.MAIN" />
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+57            </intent-filter>
+58        </activity>
+59
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+65            android:name="flutterEmbedding"
+66            android:value="2" />
 67
-68        <uses-library
-68-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-69            android:name="androidx.window.extensions"
-69-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-70            android:required="false" />
-70-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-71        <uses-library
-71-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-72            android:name="androidx.window.sidecar"
-72-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-73            android:required="false" />
-73-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-74    </application>
-75
-76</manifest>
+68        <provider
+68-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+69            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+69-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+70            android:authorities="com.example.batterybloc.file_provider"
+70-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-65
+71            android:exported="false"
+71-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+72            android:grantUriPermissions="true" >
+72-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+73            <meta-data
+73-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:61
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+75                android:resource="@xml/shared_file_paths" />
+75-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-58
+76        </provider>
+77        <provider
+77-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-23:20
+78            android:name="com.crazecoder.openfile.FileProvider"
+78-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-64
+79            android:authorities="com.example.batterybloc.fileProvider.com.crazecoder.openfile"
+79-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-88
+80            android:exported="false"
+80-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
+81            android:grantUriPermissions="true" >
+81-->[:open_file] C:\Users\augus\StudioProjects\batteryBloc\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-47
+82            <meta-data
+82-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:61
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+84                android:resource="@xml/filepaths" />
+84-->[:flutter_email_sender] C:\Users\augus\StudioProjects\batteryBloc\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-58
+85        </provider>
+86
+87        <uses-library
+87-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+88            android:name="androidx.window.extensions"
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+89            android:required="false" />
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+90        <uses-library
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+91            android:name="androidx.window.sidecar"
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\augus\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\augus\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\augus\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+96            android:authorities="com.example.batterybloc.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\augus\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\augus\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\augus\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\augus\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\augus\.gradle\caches\transforms-3\a8f15c438083418d3b3f80abdafb5523\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\augus\.gradle\caches\transforms-3\f84ca6d456abb0b1140abea481061573\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\augus\.gradle\caches\transforms-3\f84ca6d456abb0b1140abea481061573\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\augus\.gradle\caches\transforms-3\f84ca6d456abb0b1140abea481061573\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+104        </provider>
+105    </application>
+106
+107</manifest>

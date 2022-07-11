@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="16"
-6-->C:\Users\augus\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\battery_info-1.1.1\android\src\main\AndroidManifest.xml
+6-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\battery_info-1.1.1\android\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="16" />
-7-->C:\Users\augus\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\battery_info-1.1.1\android\src\main\AndroidManifest.xml
+7-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\battery_info-1.1.1\android\src\main\AndroidManifest.xml
 8
 9</manifest>
